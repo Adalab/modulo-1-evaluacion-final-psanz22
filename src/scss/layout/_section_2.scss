@@ -5,17 +5,26 @@
     width: 100%;
     height: 376px;
     min-width: 320px;
+    @media screen and (min-width: 780px){
+        padding: 0 20px 0 20px;
+    }
     &__span {
         color: $color-main;
         padding-bottom: 10px;
         font-family: $font-text;
         font-size: 0.875rem;
+        @media screen and (min-width: 780px){
+            font-size: 1rem;
+        }
     }
     &__h2 {
         font-family: $font-title;
         font-size: 1.375rem;
         font-weight: 600;
         padding-bottom: 10px;
+        @media screen and (min-width: 780px){
+            font-size: 2rem;
+        }
         
     }
     &__p {
@@ -24,6 +33,9 @@
         padding-bottom: 70px;
         color: $color-text;
         line-height: 1.5;
+        @media screen and (min-width: 780px){
+            font-size: 1.25rem;
+        }
         
     }
     &__button {
