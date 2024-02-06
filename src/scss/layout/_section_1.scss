@@ -15,18 +15,31 @@
     align-items: center;
     text-align: center;
 
+    @media screen and (min-width: 780px){
+        padding-top: 350px;
+       background-size: 170%;
+    }
+
     &__h1 {
         color: white;
         font-size: 30px;
         font-family: $font-title;
         font-weight: 500;
         line-height: 50px;
+        @media screen and (min-width: 780px){
+            font-size: 4.688rem;
+            line-height: 100px;
+        }
     }
     &__p{
         color: white;
         padding: 15px 65px 0 65px;
         font-family: $font-text;
         margin-bottom: 10px;
+        @media screen and (min-width: 780px){
+            font-size: 1.5rem;
+            padding: 0 230px 0 230px;
+        }
     }
     &__img {
         width: 35px;
@@ -35,12 +48,18 @@
         background-color: white;
         padding: 8px;
         position: sticky;
+        @media screen and (min-width: 780px){
+            width: 50px;
+            height: 50px;
+        }
         
-        
+       
     
         
     }
     
-    
+@media screen and (min-width: 780px){
+
+}
 
 }
