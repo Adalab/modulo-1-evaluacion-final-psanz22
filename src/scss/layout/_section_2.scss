@@ -51,14 +51,14 @@
         border-radius: 1rem ;
         font-size: 1.25rem;
         transition: background-color 1s ease-out 30ms;
-        transition: transform 1s ease-out 30ms;
+        transition: transform 500ms ease-out 30ms;
      
         
         a {
             color: $color-main;
         }
         &:hover {
-            background-color: rgb(235, 157, 157);
+            background-color: gold;
             transform: rotate(360deg);
         }
        

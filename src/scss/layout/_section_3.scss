@@ -83,8 +83,18 @@
         border-radius: 1rem;
         padding: 10px;
         font-size: 1rem;
+        transition: font-size 500ms 30ms;
+        transition: background-color 500ms 30ms;
         a {
             color: white;
+            transition: color 1s linear 30ms;
+        }
+        a:hover {
+            color: brown;
+        }
+        &:hover {
+            font-size: 1.6rem;
+            background-color: gold;
         }
         @media screen and (min-width: 780px){
           grid-column: 2;
