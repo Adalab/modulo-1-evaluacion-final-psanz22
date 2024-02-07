@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
     @media screen and (min-width: 360px) and (max-width: 390px){
         background-position: -600px 0;
@@ -23,6 +24,11 @@
         background-position: -700px 0;
         background-size: 335%;
     }
+    @media screen and (min-width: 491px) and (max-width: 767px){
+        background-position: -500px 0;
+        background-size: 200%;
+    }
+    
     @media screen and (min-width: 768px){
         background-position: -500px 0;
         background-size: 200%;
@@ -33,9 +39,14 @@
        background-size: 230%;
     }
     @media screen and (min-width: 1000px){
-        background-position: -160px -150px;
-       background-size: 130%;
+        background-position: -580px -150px;
+       background-size: 180%;
     }
+    @media screen and (min-width: 1900px){
+        background-position: -880px -150px;
+       background-size: 180%;
+    }
+    
     
 
     &__h1 {
@@ -44,18 +55,33 @@
         font-family: $font-title;
         font-weight: 500;
         line-height: 50px;
-        padding: 400px 40px 0 40px;
+        padding: 150px 30px 0 30px;
+        @media screen and (min-width: 464px){
+            font-size: 3rem;
+            line-height: 80px;
+        }
+        @media screen and (min-width: 706px){
+            font-size: 3rem;
+            line-height: 80px;
+            padding: 200px 100px 0 100px;
+        }
         
-        @media screen and (min-width: 780px){
+        @media screen and (min-width: 768px){
             font-size: 4.688rem;
             line-height: 100px;
         }
         @media screen and (min-width: 1000px){
-            padding: 180px 100px 0 100px;
+            padding: 70px 100px 0 100px;
         }
         @media screen and (min-width: 1212px){
             padding: 0 200px 0 200px;
         }
+        @media screen and (min-width: 1409px){
+            padding: 0 400px 0 400px;
+        }
+        @media screen and (min-width: 1700px){
+            padding: 0 700px 0 700px;
+         }
     }
     &__p{
         color: white;
