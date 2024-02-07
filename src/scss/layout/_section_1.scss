@@ -51,7 +51,7 @@
 
     &__h1 {
         color: white;
-        font-size: 30px;
+        font-size: 1.875rem;
         font-family: $font-title;
         font-weight: 500;
         line-height: 50px;
@@ -71,16 +71,16 @@
             line-height: 100px;
         }
         @media screen and (min-width: 1000px){
-            padding: 70px 100px 0 100px;
+            padding: 190px 100px 0 100px;
         }
         @media screen and (min-width: 1212px){
-            padding: 0 200px 0 200px;
+            padding: 300px 200px 0 200px;
         }
         @media screen and (min-width: 1409px){
-            padding: 0 400px 0 400px;
+            padding: 400px 400px 0 400px;
         }
         @media screen and (min-width: 1700px){
-            padding: 0 700px 0 700px;
+            padding: 500px 700px 0 700px;
          }
     }
     &__p{
@@ -118,8 +118,6 @@
         
     }
     
-@media screen and (min-width: 780px){
 
-}
 
 }
